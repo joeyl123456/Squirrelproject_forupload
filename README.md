@@ -1,6 +1,6 @@
 ## Squirrel Tracker Project
 ### Description
-We used Django to build a web application that helps you to keep track of all known squirrels in Central Park.
+We used Django to build a web application that helps you keep track of all known squirrels in Central Park.
 Dataset was obtained from [**2018 Central Park Squirrel Census**](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw). 
 For the styling of the website, we used Bootstrap4. 
 
