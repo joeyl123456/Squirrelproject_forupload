@@ -1,6 +1,6 @@
 host = 000.000.000.000
 database = squirrelrandom
 user = root
-password = toolsforanaly
+password = toolsforanalytics
 port = 3306
 default-character-set = utf8mb4

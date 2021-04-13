@@ -134,13 +134,13 @@ if os.getenv('GAE_INSTANCE'):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': os.getenv('squirrelrandom'),
-            'HOST': os.getenv('us-central1'),
-            'USER': os.getenv('carbide-ego-303318'),
-            'PASSWORD': os.getenv('toolsforanalytics'),
+            'NAME': os.getenv('DB_NAME'),
+            'HOST': os.getenv('DB_HOST'),
+            'USER': os.getenv('DB_USER'),
+            'PASSWORD': os.getenv('DB_PASSWORD'),
             # For MySQL, set 'PORT': '3306' instead of the following. Any Cloud
             # SQL Proxy instances running locally must also be set to tcp:3306.
-            'PORT': os.getenv('3306'),
+            'PORT': os.getenv('DB_PORT'),
         }
     }
 else:
