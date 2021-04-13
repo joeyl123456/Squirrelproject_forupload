@@ -125,18 +125,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, '../sightings/static'),
 ]
-
-if os.getenv('GAE_INSTANCE'):
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': os.getenv('DB_NAME'),
-            'HOST': os.getenv('DB_HOST'),
-            'USER': os.getenv('DB_USER'),
-            'PASSWORD': os.getenv('DB_PASSWORD'),
-            # For MySQL, set 'PORT': '3306' instead of the following. Any Cloud
-            # SQL Proxy instances running locally must also be set to tcp:3306.
-            'PORT': os.getenv('DB_PORT'),
-        }
-    }
-
