@@ -88,74 +88,30 @@ class Sight(models.Model):
         blank=True,
     )
 
-    Running = models.NullBooleanField(
-        help_text=_('Running'),
-        blank=True,
-    )
+    Running = models.BooleanField(null=True)
 
-    Chasing = models.NullBooleanField(
-        help_text=_('Chasing'),
-        blank=True,
-    )
+    Chasing = models.BooleanField(null=True)
 
-    Climbing = models.NullBooleanField(
-        help_text=_('Climbing'),
-        blank=True,
-    )
+    Climbing = models.BooleanField(null=True)
 
-    Eating = models.NullBooleanField(
-        help_text=_('Eating'),
-        blank=True,
-    )
+    Eating = models.BooleanField(null=True)
 
-    Foraging = models.NullBooleanField(
-        help_text=_('Foraging'),
-        blank=True,
-    )
+    Foraging = models.BooleanField(null=True)
 
-    Other_Activities = models.CharField(
-        help_text=_('Other Activities'),
-        max_length=128,
-        null=True,
-        blank=True
-    )
+    Other_Activities = models.BooleanField(null=True)
 
-    Kuks = models.NullBooleanField(
-        help_text=_('Kuks'),
-        blank=True,
-    )
+    Kuks = models.BooleanField(null=True)
 
-    Quaas = models.NullBooleanField(
-        help_text=_('Quaas'),
-        blank=True,
-    )
+    Quaas = models.BooleanField(null=True)
 
-    Moans = models.NullBooleanField(
-        help_text=_('Moans'),
-        blank=True,
-    )
+    Moans = models.BooleanField(null=True)
 
-    Tail_Flags = models.NullBooleanField(
-        help_text=_('Tail_Flags'),
-        blank=True,
-    )
+    Tail_Flags = models.BooleanField(null=True)
 
-    Tail_Twitches = models.NullBooleanField(
-        help_text=_('Tail_Twitches'),
-        blank=True,
-    )
+    Tail_Twitches = models.BooleanField(null=True)
 
-    Approaches = models.NullBooleanField(
-        help_text=_('Approaches'),
-        blank=True,
-    )
+    Approaches = models.BooleanField(null=True)
 
-    Indifferent = models.NullBooleanField(
-        help_text=_('Indifferent'),
-        blank=True,
-    )
+    Indifferent = models.BooleanField(null=True)
 
-    Runs_From = models.NullBooleanField(
-        help_text=_('Runs_From'),
-        blank=True,
-    )
+    Runs_From = models.BooleanField(null=True)
