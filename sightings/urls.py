@@ -11,4 +11,5 @@ urlpatterns = [
     path('add/', views.add_sights),
     path('sightings/<Unique_Squirrel_Id>/', views.update_sights),
     path('index/', views.index),
+
 ]
