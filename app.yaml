@@ -19,7 +19,7 @@ handlers:
 
 env_variables:
   DB_PROD: 'TRUE'
-  DB_HOST: '/cloudsql/squirrel-310423:us-east1:squirrelrandom'
+  DB_HOST: 'squirrel-310423:us-east1:squirrelrandom'
   DB_PORT: '3306'
   DB_NAME: 'squirrelrandom'
   DB_USER: 'root'
